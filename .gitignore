@@ -1,7 +1,10 @@
 # Large binary asset folders — kept out of git (too big for GitHub, >100MB files)
-TDADemo Set_8_tracks_MIDIBassHeadSmoothFuck30sept_TDAIgnore_177 Project/
 JoyPilot Tox/
 toxes/
+
+# Ableton project: track ONLY the .als sets, ignore the rest (Samples 637M, Presets, Backup…)
+TDADemo Set_8_tracks_MIDIBassHeadSmoothFuck30sept_TDAIgnore_177 Project/*
+!TDADemo Set_8_tracks_MIDIBassHeadSmoothFuck30sept_TDAIgnore_177 Project/*.als
 
 # TouchDesigner auto-backups (git history supersedes these)
 Backup/
